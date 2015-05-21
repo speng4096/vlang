@@ -1,0 +1,9 @@
+from distutils.core import setup
+setup(
+          name             =     "vlang",
+          version          =     "0.0.3",
+          py_modules       =     ['menu','message','parser','server','setup','user'],
+          author           =     "sPeng",
+          author_email     =     "ss@uutoto.com",
+          description      =     "基于模型的微信开发框架，vlang"
+)
